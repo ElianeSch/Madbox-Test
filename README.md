@@ -18,7 +18,7 @@
 
 ● What you would do if you could go a step further on this game
 
--> De nouveaux ennemis qui peuvent attaquer le joueur, des attaques à distance, des objets à collecter (armes, armures...), et un shop pour utiliser le gold récupéré en combat.
+-> De nouveaux ennemis qui peuvent attaquer le joueur, des attaques à distance, des objets à collecter (armes, armures...), et un shop pour utiliser le gold récupéré en combat. On peut aussi imaginer un système pour upgrade/vendre son équipement.
 
 
 ● Any comment you may have
