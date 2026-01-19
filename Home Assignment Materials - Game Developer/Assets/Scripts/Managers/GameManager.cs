@@ -22,8 +22,15 @@ public class GameManager : Manager<GameManager>
     private void Start()
     {
         Enemy.OnEnemyKilled += OnEnemyKilled;
+        LevelManager.Instance.OnLevelChanged += OnLevelChanged;
         gold = PlayerPrefs.GetInt("Gold", 0);
         OnGoldChanged?.Invoke(gold);
+    }
+
+    private void OnLevelChanged(int obj)
+    {
+        enemyCounter = EnemySpawnerManager.Instance.enemiesCount;
+        UIManager.Instance.Toast("Kill all enemies!");
     }
 
     public void SetGameState(GameState newState)
@@ -73,6 +80,7 @@ public class GameManager : Manager<GameManager>
         enemyCounter--;
         if (enemyCounter == 0)
         {
+            Debug.Log("OnLevelCleared");
             OnLevelCleared?.Invoke();
         }
     }
