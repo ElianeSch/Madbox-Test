@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c59ed8e908f94558a3c3bc829ca663c, type: 3}
+  m_Name: AncienSword
+  m_EditorClassIdentifier: 
+  weaponID: ancienSword
+  weaponDisplayName: Ancien Sword
+  weaponIcon: {fileID: 21300000, guid: 06a307ad9fdcf4638bc6a3c24df331a8, type: 3}
+  weaponPrefab: {fileID: 242575620969604297, guid: a336e79d108fe4ab586c9cbe9197cdd9, type: 3}
+  attackRange: 2
+  movementSpeedModifier: 1
+  baseDamage: 50
+  localPosition: {x: 0.034, y: 0.028, z: -0.007}
+  localRotation: {x: 0.9789921, y: -0.042743746, z: 0.00869627, w: 0.19917814}
+  attackSpeed: 1
+  attackType: 1
